@@ -1,0 +1,4 @@
+function clearForm()
+{
+  $('#signgenform').clearForm();
+}

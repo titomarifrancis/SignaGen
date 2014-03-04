@@ -1,0 +1,54 @@
+h1 {
+  font-family:"Times New Roman";
+  font-size:20px;
+}
+
+p {
+  font-family:"Arial";
+  font-size:15px;
+}
+
+.form-div {
+  border: 0px #ccc solid;
+  padding: 10px;
+  width: 750px;
+  font-family:"Arial";
+  font-size:15px;
+}
+ 
+.form-div .submit {
+  margin-left: 155px;
+  margin-top: 10px;
+}
+ 
+.form-div .label {
+  display: block;
+  float: left;
+  width: 150px;
+  text-align: right;
+  margin-right: 5px;
+}
+ 
+.form-div .form-row {
+  padding: 5px 0;
+  clear: both;
+  /*width: 500px;*/
+}
+ 
+.form-div label.error {
+  width: 250px;
+  display: block;
+  float: left;
+  color: red;
+  padding-left: 10px;
+  font-size:10px;
+}
+ 
+.form-div input[type=text], select, textarea {
+  width: 200px;
+  float: left;
+}
+ 
+.form-div textarea {
+  height: 50px;
+}
